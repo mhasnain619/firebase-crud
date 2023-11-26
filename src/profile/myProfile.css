@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(175, 174, 174);
+}
+
+.card-container {
+    height: 70vh;
+    border-radius: 20px;
+    width: 25%;
+    background-color: #232324;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.userPic-Info {
+    height: 30vh;
+    position: relative;
+
+}
+
+.red-circle {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    left: 25%;
+    position: absolute;
+    bottom: 120%;
+    border: 15px solid rgb(199, 177, 177);
+
+}
+
+.user-Image-div {
+    height: 150px;
+    width: 150px;
+    padding-top: 80px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232324;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.user-info {
+    padding: 5px;
+}
+
+.userName>p {
+    color: rgb(199, 177, 177);
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.userEmail>p {
+    color: rgb(199, 177, 177);
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.userDev {
+    color: rgb(199, 177, 177);
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.userAddress>p {
+    color: rgb(199, 177, 177);
+    font-size: 16px;
+
+    font-weight: 900;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons>a {
+    color: rgb(199, 177, 177);
+    font-size: 46px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .Main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(175, 174, 174);
+    }
+
+    .card-container {
+        height: 65vh;
+        border-radius: 20px;
+        width: 100%;
+        background-color: #232324;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .red-circle {
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+        left: 25%;
+        position: absolute;
+        bottom: 125%;
+        border: 15px solid rgb(199, 177, 177);
+
+    }
+
+    .user-Image-div {
+        height: 150px;
+        width: 150px;
+        padding-top: 80px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #232324;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+}

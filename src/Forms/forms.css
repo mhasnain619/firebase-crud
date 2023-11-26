@@ -1,0 +1,146 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.all-over-body {
+    background-color: rgb(175, 174, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    width: 40%;
+    background-color: rgb(137, 135, 135);
+    border-radius: 15px 15px 5px 5px;
+}
+
+.header {
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(199, 177, 177);
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+}
+
+.header>p {
+    padding: 0%;
+    margin: 0%;
+}
+
+.main {
+    padding: 10px;
+    /* border-radius: 10px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nameInput {
+    padding: 10px 15px;
+}
+
+.inputEmail {
+    padding: 10px 15px;
+}
+
+.inputPhone {
+    padding: 10px 15px;
+}
+
+.UserImage {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border: 1px solid;
+
+}
+
+.img-container {
+    margin-top: 12px;
+}
+
+.inputImage {
+    padding: 10px 15px;
+
+}
+
+.submit-btn {
+    width: 100%;
+    border: none;
+    background-color: rgb(199, 177, 177);
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+        width: 100%;
+        background-color: rgb(175, 174, 174);
+        border-radius: 15px 15px 5px 5px;
+    }
+
+    .header {
+        padding-top: 10px;
+        background-color: rgb(199, 177, 177);
+        width: 100%;
+        text-align: center;
+    }
+
+    .main {
+        width: 100%;
+        padding-top: 10px;
+        background-color: antiquewhite;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .input-1 {
+        width: 200px;
+        padding-bottom: 29px;
+    }
+
+    .input-2 {
+        width: 200px;
+        padding-bottom: 29px;
+    }
+
+    .input-3 {
+        width: 200px;
+        padding-bottom: 29px;
+    }
+
+    .UserImage-imgTake {
+        position: absolute;
+        right: 3%;
+        height: 95px;
+        width: 30%;
+        border: 1px solid blue;
+        margin-top: 12px;
+    }
+
+    .UserImage {
+        height: 95px;
+        width: 65%;
+        overflow: hidden;
+        margin-left: 23px;
+        margin-top: 0px;
+    }
+
+    .UserImage>img {
+        height: 140px;
+        width: 148px;
+
+    }
+
+    .anainPic {
+        height: 50px;
+        width: fit-content;
+
+    }
+
+    .inputImage {
+        width: 90px;
+        padding: 0%;
+        margin: 22%;
+    }
+
+}
